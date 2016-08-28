@@ -68,7 +68,7 @@ body > header nav li {
 body > header nav li a {
   color:#777;
   padding:.5rem;
-  text-decoration:none;
+  text-decoration:none !important;
 }
 body > header nav li a.active {
   background:#eee;
@@ -102,4 +102,112 @@ textarea {
 main select,
 textarea {
   width:300px;
+}
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: transparent;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: transparent;
+  color: #080808;
+  padding: 15px;
+}
+
+/* Set default bootstrap overring styles */
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+  color: #080808;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: #080808;
+}
+html {
+  font-family: "courier new";
+  font-size: 1rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-size:	24px !important;
+  margin-top:	0px !important;
+  margin-right:	0px !important;
+  margin-bottom:	0px !important;
+  margin-left:	0px !important;
+  padding-top:	0px !important;
+  padding-right:	0px !important;
+  padding-bottom:	0px !important;
+  padding-left:	0px !important;
+  font-size: 1.5rem !important;
+  line-height: 1.6 !important;
+  font-weight: bolder !important;
+}
+
+.h2, h2 {
+  font-size:	24px !important;
+  margin-top:	0px !important;
+  margin-right:	0px !important;
+  margin-bottom:	0px !important;
+  margin-left:	0px !important;
+  padding-top:	0px !important;
+  padding-right:	0px !important;
+  padding-bottom:	0px !important;
+  padding-left:	0px !important;
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
+  font-weight: bolder !important;
+}
+.copyright .social-icon i {
+transition: all 0.4s ease 0s;
+}
+.copyright i {
+line-height: 25px;
+}
+.fa {
+backface-visibility: hidden;
+color: #000;
+}
+.fa {
+display: inline-block;
+font-family: FontAwesome;
+font-feature-settings: normal;
+font-kerning: auto;
+font-language-override: normal;
+font-size: inherit;
+font-size-adjust: none;
+font-stretch: normal;
+font-style: normal;
+font-synthesis: weight style;
+font-variant: normal;
+font-weight: normal;
+line-height: 1;
+text-rendering: auto;
+transform: translate(0px, 0px);
+}
+
+.fa-facebook-f::before, .fa-facebook::before {
+content: "";
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;}
 }
