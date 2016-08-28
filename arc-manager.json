@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "ManagerHost": 2,
+    "LoadBalancer": 1
+  },
+  "models": {
+    "ManagerHost": {
+      "a8041662-42fb-4dba-8957-d0c7c8898752": "{\"id\":\"a8041662-42fb-4dba-8957-d0c7c8898752\",\"host\":\"localhost\",\"port\":8701,\"actions\":[\"delete\",\"edit\",\"env-set\",\"env-get\",\"start\"],\"protocol\":\"http\",\"created\":1472395398822,\"error\":null,\"errorType\":null,\"app\":{\"name\":\"loopback-getting-started-intermediate\",\"version\":null},\"processes\":{\"pids\":[]}}"
+    },
+    "LoadBalancer": {}
+  }
+}
