@@ -13,7 +13,7 @@
     "connector": "mysql"
   },
   "mongoDs": {
-    "host": "localhost",
+    "host": "mongodb",
     "port": 27017,
     "database": "sandbox",
     "username": "demo",

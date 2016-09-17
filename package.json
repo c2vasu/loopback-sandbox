@@ -1,6 +1,8 @@
 {
-  "name": "loopback-getting-started-intermediate",
+  "name": "loopback-sandbox",
   "version": "0.0.0",
+  "author": "Srinivas Rao",
+  "description": "Full-stack example that builds on loopback.",
   "main": "server/server.js",
   "scripts": {
     "pretest": "jshint ."

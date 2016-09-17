@@ -1,12 +1,12 @@
 # loopback-sandbox
 Full-stack example that builds on loopback
 
-#### Start MongoDB
+### RUN MONGODB DEMON
 ```
-$ mongod --dbpath C:\vasu\Servers\Mongodb\database
+mongod --fork --logpath /var/log/mongodb.log
+```
 
-```
-#### Start Loopback Applicable
+### RUN NODE
 ```
 $ git clone https://github.com/c2vasu/loopback-sandbox.git
 $ cd loopback-sandbox

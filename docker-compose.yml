@@ -1,0 +1,10 @@
+mongodb:
+  image: mongo
+  ports:
+    - "27017:27017"
+loopback-sandbox:
+  image: c2vasu/loopback-sandbox
+  links:
+    - mongodb:mongodb
+  ports:
+    - "3000:3000"
