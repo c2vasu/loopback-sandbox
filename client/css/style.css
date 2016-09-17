@@ -111,6 +111,14 @@ textarea {
   border-radius: 0;
 }
 
+.navbar-brand {
+  background-image: url("../images/logo.v2.png");
+  background-size: cover;
+  border: 0 none;
+  float: left;
+  height: 80px;
+  width: 320px;
+}
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {height: 450px}
 
